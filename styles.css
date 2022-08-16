@@ -51,6 +51,15 @@ h4 {
   text-align: center;
 }
 
+#homeReaction {
+  font-size: 20px;
+  margin: 20px;
+}
+
+#guestReaction {
+  font-size: 20px;
+  margin: 20px;
+}
 .h5Box {
     font-family: "Cursed Timer ULiL", sans-serif;
     border: 2px solid #9aabd8;
