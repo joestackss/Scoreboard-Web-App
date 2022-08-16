@@ -13,7 +13,7 @@ function gameReaction() {
     document.getElementById("homeReaction").innerText = "Draw";
     document.getElementById("guestReaction").innerText = "Draw";
   } else {
-    document.getElementById("homeReaction").innerText = "Draw";
+    document.getElementById("homeReaction").innerText = "Loosing";
     document.getElementById("guestReaction").innerText = "Winning";
   }
 }
