@@ -7,13 +7,16 @@ body {
   margin: 0;
   font-family: Verdana, sans-serif;
   box-sizing: border-box;
+  background-image: url(/football-pitch.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1b244a;
+  background-color: #1b244acc;
   width: 75%;
   height: 385px;
   margin: 0 auto;
@@ -23,7 +26,7 @@ body {
 }
 
 img {
-  width:80px;
+  width:100px;
 }
 .inner-container {
   text-align: center;
@@ -40,7 +43,7 @@ h3 {
 .h4Box {
   background-color: #080001;
   margin:20px 10px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 h4 {
@@ -54,15 +57,10 @@ h4 {
   text-align: center;
 }
 
-#homeReaction {
+#homeReaction, #guestReaction {
   font-size: 20px;
-  margin: 20px;
 }
 
-#guestReaction {
-  font-size: 20px;
-  margin: 20px;
-}
 .h5Box {
     font-family: "Cursed Timer ULiL", sans-serif;
     border: 2px solid #9aabd8;

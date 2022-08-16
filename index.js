@@ -11,7 +11,7 @@ function gameReaction() {
     document.getElementById("guestReaction").innerText = "Losing";
   } else if (homeScore == guestScore) {
     document.getElementById("homeReaction").innerText = "Draw";
-    document.getElementById("guestReaction").innerText = "Tie";
+    document.getElementById("guestReaction").innerText = "Draw";
   } else {
     document.getElementById("homeReaction").innerText = "Draw";
     document.getElementById("guestReaction").innerText = "Winning";
