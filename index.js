@@ -10,10 +10,10 @@ function gameReaction() {
     document.getElementById("homeReaction").innerText = "Winning";
     document.getElementById("guestReaction").innerText = "Losing";
   } else if (homeScore == guestScore) {
-    document.getElementById("homeReaction").innerText = "Tie";
+    document.getElementById("homeReaction").innerText = "Draw";
     document.getElementById("guestReaction").innerText = "Tie";
   } else {
-    document.getElementById("homeReaction").innerText = "Loosing";
+    document.getElementById("homeReaction").innerText = "Draw";
     document.getElementById("guestReaction").innerText = "Winning";
   }
 }
